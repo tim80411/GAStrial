@@ -10,7 +10,7 @@ function getMethod() {
   let jobName = document.querySelector('.jobName').value
 
   $.ajax({
-    url: "https://script.google.com/macros/s/AKfycbwlZVY2oY8XpgZggvJnmHG2nOrVzK50MN4e8wmN97Y5pYNLVMtrG7huZQ/exec",
+    url: "https://script.google.com/macros/s/AKfycby50ecszgvMhc5zuIolKty5AxV8q5zoHRarMecHYdFC9ViH9GgC/exec",
     data: {
       "name": name,
       "time": time,
